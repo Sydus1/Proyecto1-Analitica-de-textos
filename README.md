@@ -7,3 +7,6 @@ Integrantes:
   
 Wiki:
 - https://github.com/Sydus1/Proyecto1-Analitica-de-textos/wiki
+
+Como funciona?
+- se debe correr el archivo `app.py` y despues entrar a la siguiente url: http://127.0.0.1:5000
