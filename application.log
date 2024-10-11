@@ -58,3 +58,17 @@
 2024-10-11 17:07:35,909 - INFO - Solicitud recibida en /predict_web
 2024-10-11 17:07:35,917 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.87}]
 2024-10-11 17:07:35,917 - INFO - 127.0.0.1 - - [11/Oct/2024 17:07:35] "POST /predict_web HTTP/1.1" 200 -
+2024-10-11 17:12:50,461 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-11 17:12:50,461 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-11 17:12:50,462 - INFO -  * Restarting with stat
+2024-10-11 17:12:51,490 - WARNING -  * Debugger is active!
+2024-10-11 17:12:51,493 - INFO -  * Debugger PIN: 741-149-849
+2024-10-11 17:16:02,043 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-11 17:16:02,043 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-11 17:16:02,045 - INFO -  * Restarting with stat
+2024-10-11 17:16:03,064 - WARNING -  * Debugger is active!
+2024-10-11 17:16:03,067 - INFO -  * Debugger PIN: 741-149-849
+2024-10-11 17:16:16,374 - INFO -  * Detected change in 'C:\\Users\\USUARIO\\OneDrive - Universidad de los andes\\Documentos\\JJ\\MATERIAS 9\\BI\\Proyecto 1\\Proyecto1-Analitica-de-textos\\app.py', reloading
+2024-10-11 17:16:16,489 - INFO -  * Restarting with stat
