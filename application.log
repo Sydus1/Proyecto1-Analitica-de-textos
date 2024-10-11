@@ -1,0 +1,60 @@
+2024-10-11 17:05:20,426 - WARNING -  * Debugger is active!
+2024-10-11 17:05:20,429 - INFO -  * Debugger PIN: 741-149-849
+2024-10-11 17:05:33,417 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-11 17:05:33,417 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-11 17:05:33,418 - INFO -  * Restarting with stat
+2024-10-11 17:05:34,553 - WARNING -  * Debugger is active!
+2024-10-11 17:05:34,555 - INFO -  * Debugger PIN: 741-149-849
+2024-10-11 17:05:35,774 - INFO - Solicitud recibida en /predict_web
+2024-10-11 17:05:35,782 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.52}]
+2024-10-11 17:05:35,782 - INFO - 127.0.0.1 - - [11/Oct/2024 17:05:35] "POST /predict_web HTTP/1.1" 200 -
+2024-10-11 17:05:44,407 - INFO - Solicitud recibida en /predict_web
+2024-10-11 17:05:44,412 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.42}]
+2024-10-11 17:05:44,412 - INFO - 127.0.0.1 - - [11/Oct/2024 17:05:44] "POST /predict_web HTTP/1.1" 200 -
+2024-10-11 17:06:06,083 - INFO - Solicitud recibida en /predict_web
+2024-10-11 17:06:06,088 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.8}]
+2024-10-11 17:06:06,088 - INFO - 127.0.0.1 - - [11/Oct/2024 17:06:06] "POST /predict_web HTTP/1.1" 200 -
+2024-10-11 17:06:29,650 - INFO - Solicitud recibida en /predict_web
+2024-10-11 17:06:29,656 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.75}]
+2024-10-11 17:06:29,656 - INFO - 127.0.0.1 - - [11/Oct/2024 17:06:29] "POST /predict_web HTTP/1.1" 200 -
+2024-10-11 17:06:30,422 - INFO - Solicitud recibida en /predict_web
+2024-10-11 17:06:30,427 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.75}]
+2024-10-11 17:06:30,427 - INFO - 127.0.0.1 - - [11/Oct/2024 17:06:30] "POST /predict_web HTTP/1.1" 200 -
+2024-10-11 17:06:45,700 - INFO - Solicitud recibida en /predict_web
+2024-10-11 17:06:45,706 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.57}]
+2024-10-11 17:06:45,706 - INFO - 127.0.0.1 - - [11/Oct/2024 17:06:45] "POST /predict_web HTTP/1.1" 200 -
+2024-10-11 17:06:56,898 - INFO - Solicitud recibida en /predict_web
+2024-10-11 17:06:56,904 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.75}]
+2024-10-11 17:06:56,904 - INFO - 127.0.0.1 - - [11/Oct/2024 17:06:56] "POST /predict_web HTTP/1.1" 200 -
+2024-10-11 17:07:01,635 - INFO - Solicitud recibida en /predict_web
+2024-10-11 17:07:01,641 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.75}]
+2024-10-11 17:07:01,641 - INFO - 127.0.0.1 - - [11/Oct/2024 17:07:01] "POST /predict_web HTTP/1.1" 200 -
+2024-10-11 17:07:01,926 - INFO - Solicitud recibida en /predict_web
+2024-10-11 17:07:01,932 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.75}]
+2024-10-11 17:07:01,933 - INFO - 127.0.0.1 - - [11/Oct/2024 17:07:01] "POST /predict_web HTTP/1.1" 200 -
+2024-10-11 17:07:02,108 - INFO - Solicitud recibida en /predict_web
+2024-10-11 17:07:02,116 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.75}]
+2024-10-11 17:07:02,117 - INFO - 127.0.0.1 - - [11/Oct/2024 17:07:02] "POST /predict_web HTTP/1.1" 200 -
+2024-10-11 17:07:02,270 - INFO - Solicitud recibida en /predict_web
+2024-10-11 17:07:02,277 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.75}]
+2024-10-11 17:07:02,277 - INFO - 127.0.0.1 - - [11/Oct/2024 17:07:02] "POST /predict_web HTTP/1.1" 200 -
+2024-10-11 17:07:02,433 - INFO - Solicitud recibida en /predict_web
+2024-10-11 17:07:02,439 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.75}]
+2024-10-11 17:07:02,440 - INFO - 127.0.0.1 - - [11/Oct/2024 17:07:02] "POST /predict_web HTTP/1.1" 200 -
+2024-10-11 17:07:02,595 - INFO - Solicitud recibida en /predict_web
+2024-10-11 17:07:02,600 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.75}]
+2024-10-11 17:07:02,600 - INFO - 127.0.0.1 - - [11/Oct/2024 17:07:02] "POST /predict_web HTTP/1.1" 200 -
+2024-10-11 17:07:11,878 - INFO - Solicitud recibida en /predict_web
+2024-10-11 17:07:11,886 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.75}]
+2024-10-11 17:07:11,886 - INFO - 127.0.0.1 - - [11/Oct/2024 17:07:11] "POST /predict_web HTTP/1.1" 200 -
+2024-10-11 17:07:30,644 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-11 17:07:30,644 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-11 17:07:30,646 - INFO -  * Restarting with stat
+2024-10-11 17:07:31,693 - WARNING -  * Debugger is active!
+2024-10-11 17:07:31,695 - INFO -  * Debugger PIN: 741-149-849
+2024-10-11 17:07:33,021 - INFO - 127.0.0.1 - - [11/Oct/2024 17:07:33] "GET / HTTP/1.1" 200 -
+2024-10-11 17:07:35,909 - INFO - Solicitud recibida en /predict_web
+2024-10-11 17:07:35,917 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.87}]
+2024-10-11 17:07:35,917 - INFO - 127.0.0.1 - - [11/Oct/2024 17:07:35] "POST /predict_web HTTP/1.1" 200 -
