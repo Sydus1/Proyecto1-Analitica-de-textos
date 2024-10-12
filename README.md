@@ -10,4 +10,4 @@ Wiki:
 
 Como funciona?
 - Descargar el .zip del repositorio
-- Se debe correr el archivo `app.py` y despues entrar a la siguiente url: http://127.0.0.1:5000
+- Correr el archivo `app.py` y despues entrar a la siguiente url: http://127.0.0.1:5000
