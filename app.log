@@ -1,0 +1,317 @@
+2024-10-11 17:16:19,742 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-11 17:16:19,742 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-11 17:16:19,743 - INFO -  * Restarting with stat
+2024-10-11 17:16:20,750 - WARNING -  * Debugger is active!
+2024-10-11 17:16:20,753 - INFO -  * Debugger PIN: 741-149-849
+2024-10-11 17:16:24,429 - INFO - 127.0.0.1 - - [11/Oct/2024 17:16:24] "GET / HTTP/1.1" 200 -
+2024-10-11 17:16:42,919 - INFO - Solicitud recibida en /predict_web
+2024-10-11 17:16:42,925 - INFO - Predicciones realizadas: [{'prediction': '4', 'probability': 0.94}]
+2024-10-11 17:16:42,926 - INFO - 127.0.0.1 - - [11/Oct/2024 17:16:42] "POST /predict_web HTTP/1.1" 200 -
+2024-10-12 10:50:15,474 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-12 10:50:15,475 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-12 10:50:15,482 - INFO -  * Restarting with stat
+2024-10-12 10:50:16,965 - WARNING -  * Debugger is active!
+2024-10-12 10:50:16,970 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 10:50:58,677 - INFO - 127.0.0.1 - - [12/Oct/2024 10:50:58] "GET / HTTP/1.1" 200 -
+2024-10-12 10:50:59,131 - INFO - 127.0.0.1 - - [12/Oct/2024 10:50:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-12 10:51:29,161 - INFO - Solicitud recibida en /predict_web
+2024-10-12 10:51:29,172 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.89}]
+2024-10-12 10:51:29,172 - INFO - 127.0.0.1 - - [12/Oct/2024 10:51:29] "POST /predict_web HTTP/1.1" 200 -
+2024-10-12 10:51:55,559 - INFO - Solicitud recibida en /predict_web
+2024-10-12 10:51:55,568 - INFO - Predicciones realizadas: [{'prediction': '4', 'probability': 0.95}]
+2024-10-12 10:51:55,569 - INFO - 127.0.0.1 - - [12/Oct/2024 10:51:55] "POST /predict_web HTTP/1.1" 200 -
+2024-10-12 10:52:23,057 - INFO - Solicitud recibida en /predict_web
+2024-10-12 10:52:23,063 - INFO - Predicciones realizadas: [{'prediction': '4', 'probability': 0.95}]
+2024-10-12 10:52:23,064 - INFO - 127.0.0.1 - - [12/Oct/2024 10:52:23] "POST /predict_web HTTP/1.1" 200 -
+2024-10-12 10:52:30,370 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-12 10:52:30,370 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-12 10:52:30,371 - INFO -  * Restarting with stat
+2024-10-12 10:52:31,524 - WARNING -  * Debugger is active!
+2024-10-12 10:52:31,527 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 10:52:37,593 - INFO - 127.0.0.1 - - [12/Oct/2024 10:52:37] "GET / HTTP/1.1" 200 -
+2024-10-12 10:52:38,952 - INFO - Solicitud recibida en /predict_web
+2024-10-12 10:52:38,960 - INFO - Predicciones realizadas: [{'prediction': '4', 'probability': 0.95}]
+2024-10-12 10:52:38,960 - INFO - 127.0.0.1 - - [12/Oct/2024 10:52:38] "POST /predict_web HTTP/1.1" 200 -
+2024-10-12 10:53:44,659 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-12 10:53:44,659 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-12 10:53:44,661 - INFO -  * Restarting with stat
+2024-10-12 10:53:45,916 - WARNING -  * Debugger is active!
+2024-10-12 10:53:45,919 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 10:53:48,930 - INFO - 127.0.0.1 - - [12/Oct/2024 10:53:48] "GET / HTTP/1.1" 200 -
+2024-10-12 10:53:49,989 - INFO - Solicitud recibida en /predict_web
+2024-10-12 10:53:50,001 - INFO - Predicciones realizadas: [{'prediction': '4', 'probability': 0.95}]
+2024-10-12 10:53:50,002 - INFO - 127.0.0.1 - - [12/Oct/2024 10:53:50] "POST /predict_web HTTP/1.1" 200 -
+2024-10-12 11:04:41,173 - INFO -  * Detected change in 'C:\\Users\\USUARIO\\OneDrive - Universidad de los andes\\Documentos\\JJ\\MATERIAS 9\\BI\\Proyecto 1\\Proyecto1-Analitica-de-textos\\app.py', reloading
+2024-10-12 11:04:41,367 - INFO -  * Restarting with stat
+2024-10-12 11:04:42,690 - WARNING -  * Debugger is active!
+2024-10-12 11:04:42,694 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 11:06:18,556 - INFO -  * Detected change in 'C:\\Users\\USUARIO\\OneDrive - Universidad de los andes\\Documentos\\JJ\\MATERIAS 9\\BI\\Proyecto 1\\Proyecto1-Analitica-de-textos\\app.py', reloading
+2024-10-12 11:06:18,755 - INFO -  * Restarting with stat
+2024-10-12 11:06:20,137 - WARNING -  * Debugger is active!
+2024-10-12 11:06:20,141 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 11:06:21,158 - INFO -  * Detected change in 'C:\\Users\\USUARIO\\OneDrive - Universidad de los andes\\Documentos\\JJ\\MATERIAS 9\\BI\\Proyecto 1\\Proyecto1-Analitica-de-textos\\app.py', reloading
+2024-10-12 11:06:21,364 - INFO -  * Restarting with stat
+2024-10-12 11:06:22,677 - WARNING -  * Debugger is active!
+2024-10-12 11:06:22,680 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 11:26:23,061 - INFO -  * Detected change in 'C:\\Users\\USUARIO\\OneDrive - Universidad de los andes\\Documentos\\JJ\\MATERIAS 9\\BI\\Proyecto 1\\Proyecto1-Analitica-de-textos\\app.py', reloading
+2024-10-12 11:26:23,250 - INFO -  * Restarting with stat
+2024-10-12 11:26:24,585 - WARNING -  * Debugger is active!
+2024-10-12 11:26:24,588 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 11:27:00,346 - INFO -  * Detected change in 'C:\\Users\\USUARIO\\OneDrive - Universidad de los andes\\Documentos\\JJ\\MATERIAS 9\\BI\\Proyecto 1\\Proyecto1-Analitica-de-textos\\app.py', reloading
+2024-10-12 11:27:00,502 - INFO -  * Restarting with stat
+2024-10-12 11:27:01,654 - WARNING -  * Debugger is active!
+2024-10-12 11:27:01,658 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 11:27:04,388 - INFO -  * Detected change in 'C:\\Users\\USUARIO\\OneDrive - Universidad de los andes\\Documentos\\JJ\\MATERIAS 9\\BI\\Proyecto 1\\Proyecto1-Analitica-de-textos\\app.py', reloading
+2024-10-12 11:27:04,531 - INFO -  * Restarting with stat
+2024-10-12 11:27:05,712 - WARNING -  * Debugger is active!
+2024-10-12 11:27:05,717 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 11:27:09,922 - INFO -  * Detected change in 'C:\\Users\\USUARIO\\OneDrive - Universidad de los andes\\Documentos\\JJ\\MATERIAS 9\\BI\\Proyecto 1\\Proyecto1-Analitica-de-textos\\app.py', reloading
+2024-10-12 11:27:10,057 - INFO -  * Restarting with stat
+2024-10-12 11:32:47,297 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-12 11:32:47,297 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-12 11:32:47,299 - INFO -  * Restarting with stat
+2024-10-12 11:32:48,388 - WARNING -  * Debugger is active!
+2024-10-12 11:32:48,393 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 11:32:55,330 - INFO - 127.0.0.1 - - [12/Oct/2024 11:32:55] "GET / HTTP/1.1" 200 -
+2024-10-12 11:33:01,580 - INFO - Solicitud recibida en /predict_web
+2024-10-12 11:33:01,621 - INFO - Predicciones realizadas: [{'prediction': '4', 'probability': 0.95}]
+2024-10-12 11:33:01,624 - INFO - 127.0.0.1 - - [12/Oct/2024 11:33:01] "POST /predict_web HTTP/1.1" 200 -
+2024-10-12 11:33:22,331 - INFO - 127.0.0.1 - - [12/Oct/2024 11:33:22] "[31m[1mGET /retrain HTTP/1.1[0m" 405 -
+2024-10-12 11:33:31,706 - INFO - 127.0.0.1 - - [12/Oct/2024 11:33:31] "[31m[1mGET /retrain HTTP/1.1[0m" 405 -
+2024-10-12 11:34:49,296 - INFO - 127.0.0.1 - - [12/Oct/2024 11:34:49] "GET / HTTP/1.1" 200 -
+2024-10-12 11:34:58,485 - INFO - Solicitud recibida en /predict_web
+2024-10-12 11:34:58,544 - INFO - Predicciones realizadas: [{'prediction': '4', 'probability': 0.95}]
+2024-10-12 11:34:58,546 - INFO - 127.0.0.1 - - [12/Oct/2024 11:34:58] "POST /predict_web HTTP/1.1" 200 -
+2024-10-12 12:01:46,824 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-12 12:01:46,825 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-12 12:01:46,826 - INFO -  * Restarting with stat
+2024-10-12 12:01:48,114 - WARNING -  * Debugger is active!
+2024-10-12 12:01:48,119 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 12:01:49,852 - INFO - 127.0.0.1 - - [12/Oct/2024 12:01:49] "GET / HTTP/1.1" 200 -
+2024-10-12 12:02:04,254 - INFO - Solicitud recibida en /predict_web
+2024-10-12 12:02:04,297 - INFO - Predicciones realizadas: [{'prediction': '4', 'probability': 0.41}]
+2024-10-12 12:02:04,299 - INFO - 127.0.0.1 - - [12/Oct/2024 12:02:04] "POST /predict_web HTTP/1.1" 200 -
+2024-10-12 12:02:16,122 - INFO - Solicitud recibida en /predict_web
+2024-10-12 12:02:16,163 - INFO - Predicciones realizadas: [{'prediction': '4', 'probability': 0.85}]
+2024-10-12 12:02:16,165 - INFO - 127.0.0.1 - - [12/Oct/2024 12:02:16] "POST /predict_web HTTP/1.1" 200 -
+2024-10-12 12:03:01,743 - INFO - Solicitud recibida en /retrain
+2024-10-12 12:03:01,941 - ERROR - Error en /retrain: Unknown label type: unknown. Maybe you are trying to fit a classifier, which expects discrete classes on a regression target with continuous values.
+2024-10-12 12:03:01,942 - INFO - 127.0.0.1 - - [12/Oct/2024 12:03:01] "[35m[1mPOST /retrain HTTP/1.1[0m" 500 -
+2024-10-12 12:03:09,358 - INFO - Solicitud recibida en /retrain
+2024-10-12 12:03:09,611 - ERROR - Error en /retrain: Unknown label type: unknown. Maybe you are trying to fit a classifier, which expects discrete classes on a regression target with continuous values.
+2024-10-12 12:03:09,613 - INFO - 127.0.0.1 - - [12/Oct/2024 12:03:09] "[35m[1mPOST /retrain HTTP/1.1[0m" 500 -
+2024-10-12 12:03:45,162 - INFO - Solicitud recibida en /retrain
+2024-10-12 12:03:45,354 - ERROR - Error en /retrain: Unknown label type: unknown. Maybe you are trying to fit a classifier, which expects discrete classes on a regression target with continuous values.
+2024-10-12 12:03:45,355 - INFO - 127.0.0.1 - - [12/Oct/2024 12:03:45] "[35m[1mPOST /retrain HTTP/1.1[0m" 500 -
+2024-10-12 12:05:04,931 - INFO - Solicitud recibida en /predict_web
+2024-10-12 12:05:04,972 - INFO - Predicciones realizadas: [{'prediction': '4', 'probability': 0.85}]
+2024-10-12 12:05:04,974 - INFO - 127.0.0.1 - - [12/Oct/2024 12:05:04] "POST /predict_web HTTP/1.1" 200 -
+2024-10-12 12:05:05,503 - INFO - Solicitud recibida en /predict_web
+2024-10-12 12:05:05,548 - INFO - Predicciones realizadas: [{'prediction': '4', 'probability': 0.85}]
+2024-10-12 12:05:05,550 - INFO - 127.0.0.1 - - [12/Oct/2024 12:05:05] "POST /predict_web HTTP/1.1" 200 -
+2024-10-12 12:08:04,749 - INFO -  * Detected change in 'C:\\Users\\USUARIO\\OneDrive - Universidad de los andes\\Documentos\\JJ\\MATERIAS 9\\BI\\Proyecto 1\\Proyecto1-Analitica-de-textos\\test_retrain.py', reloading
+2024-10-12 12:08:04,909 - INFO -  * Restarting with stat
+2024-10-12 12:08:06,255 - WARNING -  * Debugger is active!
+2024-10-12 12:08:06,259 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 12:08:13,956 - INFO -  * Detected change in 'C:\\Users\\USUARIO\\OneDrive - Universidad de los andes\\Documentos\\JJ\\MATERIAS 9\\BI\\Proyecto 1\\Proyecto1-Analitica-de-textos\\test_retrain.py', reloading
+2024-10-12 12:08:14,160 - INFO -  * Restarting with stat
+2024-10-12 12:08:15,429 - WARNING -  * Debugger is active!
+2024-10-12 12:08:15,435 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 12:08:18,223 - INFO -  * Detected change in 'C:\\Users\\USUARIO\\OneDrive - Universidad de los andes\\Documentos\\JJ\\MATERIAS 9\\BI\\Proyecto 1\\Proyecto1-Analitica-de-textos\\test_retrain.py', reloading
+2024-10-12 12:08:18,406 - INFO -  * Restarting with stat
+2024-10-12 12:08:19,692 - WARNING -  * Debugger is active!
+2024-10-12 12:08:19,696 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 12:20:27,760 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-12 12:20:27,761 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-12 12:20:27,762 - INFO -  * Restarting with stat
+2024-10-12 12:20:29,091 - WARNING -  * Debugger is active!
+2024-10-12 12:20:29,095 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 12:20:30,445 - INFO - 127.0.0.1 - - [12/Oct/2024 12:20:30] "GET / HTTP/1.1" 200 -
+2024-10-12 12:22:46,157 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-12 12:22:46,158 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-12 12:22:46,160 - INFO -  * Restarting with stat
+2024-10-12 12:22:47,750 - WARNING -  * Debugger is active!
+2024-10-12 12:22:47,755 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 12:22:49,542 - INFO - 127.0.0.1 - - [12/Oct/2024 12:22:49] "GET / HTTP/1.1" 200 -
+2024-10-12 12:23:07,294 - INFO - Solicitud recibida en /predict_web
+2024-10-12 12:23:07,339 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.87}]
+2024-10-12 12:23:07,341 - INFO - 127.0.0.1 - - [12/Oct/2024 12:23:07] "POST /predict_web HTTP/1.1" 200 -
+2024-10-12 12:30:45,917 - INFO - Solicitud recibida en /retrain
+2024-10-12 12:30:45,929 - INFO - Archivo recibido y guardado en uploads\SDG_text_data.csv
+2024-10-12 12:30:50,058 - INFO - Solicitud recibida en /retrain
+2024-10-12 12:30:50,071 - INFO - Archivo recibido y guardado en uploads\SDG_text_data.csv
+2024-10-12 12:30:50,542 - INFO - Modelo reentrenado. Métricas: {'3': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1244.0}, '4': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1354.0}, '5': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1451.0}, 'accuracy': 1.0, 'macro avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 4049.0}, 'weighted avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 4049.0}}
+2024-10-12 12:30:50,543 - INFO - 127.0.0.1 - - [12/Oct/2024 12:30:50] "POST /retrain HTTP/1.1" 200 -
+2024-10-12 12:30:54,343 - INFO - Modelo reentrenado. Métricas: {'3': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1244.0}, '4': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1354.0}, '5': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1451.0}, 'accuracy': 1.0, 'macro avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 4049.0}, 'weighted avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 4049.0}}
+2024-10-12 12:30:54,343 - ERROR - Error en /retrain: [WinError 2] El sistema no puede encontrar el archivo especificado: 'uploads\\SDG_text_data.csv'
+2024-10-12 12:30:54,344 - INFO - 127.0.0.1 - - [12/Oct/2024 12:30:54] "[35m[1mPOST /retrain HTTP/1.1[0m" 500 -
+2024-10-12 12:30:56,030 - INFO - Solicitud recibida en /retrain
+2024-10-12 12:30:56,042 - INFO - Archivo recibido y guardado en uploads\SDG_text_data.csv
+2024-10-12 12:31:00,146 - INFO - Modelo reentrenado. Métricas: {'3': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1244.0}, '4': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1354.0}, '5': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1451.0}, 'accuracy': 1.0, 'macro avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 4049.0}, 'weighted avg': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 4049.0}}
+2024-10-12 12:31:00,147 - INFO - 127.0.0.1 - - [12/Oct/2024 12:31:00] "POST /retrain HTTP/1.1" 200 -
+2024-10-12 12:31:29,613 - INFO - Solicitud recibida en /predict_web
+2024-10-12 12:31:29,681 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.92}]
+2024-10-12 12:31:29,684 - INFO - 127.0.0.1 - - [12/Oct/2024 12:31:29] "POST /predict_web HTTP/1.1" 200 -
+2024-10-12 12:33:31,487 - INFO - Solicitud recibida en /retrain
+2024-10-12 12:33:31,489 - INFO - Archivo recibido y guardado en uploads\SDG_text_data_ficticio.csv
+2024-10-12 12:33:33,159 - INFO - Modelo reentrenado. Métricas: {'1': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 3.0}, '2': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 4.0}, '3': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1.0}, '4': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 5.0}, '5': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 3.0}, '6': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 2.0}, '7': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1.0}, '8': {'precision': 1.0, 'recall': 0.5, 'f1-score': 0.6666666666666666, 'support': 2.0}, '9': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 2.0}, '10': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 5.0}, '11': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 1.0}, '12': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 4.0}, '13': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 7.0}, '14': {'precision': 0.6666666666666666, 'recall': 1.0, 'f1-score': 0.8, 'support': 4.0}, '15': {'precision': 1.0, 'recall': 1.0, 'f1-score': 1.0, 'support': 2.0}, '17': {'precision': 1.0, 'recall': 0.75, 'f1-score': 0.8571428571428571, 'support': 4.0}, 'accuracy': 0.96, 'macro avg': {'precision': 0.9791666666666666, 'recall': 0.953125, 'f1-score': 0.9577380952380952, 'support': 50.0}, 'weighted avg': {'precision': 0.9733333333333333, 'recall': 0.96, 'f1-score': 0.9592380952380952, 'support': 50.0}}
+2024-10-12 12:33:33,161 - INFO - 127.0.0.1 - - [12/Oct/2024 12:33:33] "POST /retrain HTTP/1.1" 200 -
+2024-10-12 12:33:47,535 - INFO - Solicitud recibida en /predict_web
+2024-10-12 12:33:47,591 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.33}]
+2024-10-12 12:33:47,595 - INFO - 127.0.0.1 - - [12/Oct/2024 12:33:47] "POST /predict_web HTTP/1.1" 200 -
+2024-10-12 12:34:05,844 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-12 12:34:05,844 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-12 12:34:05,846 - INFO -  * Restarting with stat
+2024-10-12 12:34:07,044 - WARNING -  * Debugger is active!
+2024-10-12 12:34:07,047 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 12:34:10,343 - INFO - 127.0.0.1 - - [12/Oct/2024 12:34:10] "GET / HTTP/1.1" 200 -
+2024-10-12 12:34:12,009 - INFO - Solicitud recibida en /predict_web
+2024-10-12 12:34:12,069 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.33}]
+2024-10-12 12:34:12,072 - INFO - 127.0.0.1 - - [12/Oct/2024 12:34:12] "POST /predict_web HTTP/1.1" 200 -
+2024-10-12 12:35:18,573 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-12 12:35:18,573 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-12 12:35:18,575 - INFO -  * Restarting with stat
+2024-10-12 12:35:19,768 - WARNING -  * Debugger is active!
+2024-10-12 12:35:19,773 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 12:35:24,262 - INFO - 127.0.0.1 - - [12/Oct/2024 12:35:24] "GET / HTTP/1.1" 200 -
+2024-10-12 12:35:26,129 - INFO - Solicitud recibida en /predict_web
+2024-10-12 12:35:26,170 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.87}]
+2024-10-12 12:35:26,172 - INFO - 127.0.0.1 - - [12/Oct/2024 12:35:26] "POST /predict_web HTTP/1.1" 200 -
+2024-10-12 12:35:46,712 - INFO - Solicitud recibida en /retrain
+2024-10-12 12:35:46,713 - INFO - Archivo recibido y guardado en uploads\SDG_text_data_ficticio_restricted.csv
+2024-10-12 12:35:48,251 - INFO - Modelo reentrenado. Métricas: {'3': {'precision': 0.8333333333333334, 'recall': 1.0, 'f1-score': 0.9090909090909091, 'support': 10.0}, '4': {'precision': 0.9473684210526315, 'recall': 0.9473684210526315, 'f1-score': 0.9473684210526315, 'support': 19.0}, '5': {'precision': 1.0, 'recall': 0.9047619047619048, 'f1-score': 0.95, 'support': 21.0}, 'accuracy': 0.94, 'macro avg': {'precision': 0.9269005847953217, 'recall': 0.9507101086048454, 'f1-score': 0.9354864433811801, 'support': 50.0}, 'weighted avg': {'precision': 0.9466666666666668, 'recall': 0.94, 'f1-score': 0.9408181818181818, 'support': 50.0}}
+2024-10-12 12:35:48,252 - INFO - 127.0.0.1 - - [12/Oct/2024 12:35:48] "POST /retrain HTTP/1.1" 200 -
+2024-10-12 12:35:51,921 - INFO - Solicitud recibida en /predict_web
+2024-10-12 12:35:51,970 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.4346190476190476}]
+2024-10-12 12:35:51,972 - INFO - 127.0.0.1 - - [12/Oct/2024 12:35:51] "POST /predict_web HTTP/1.1" 200 -
+2024-10-12 12:57:20,349 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-12 12:57:20,350 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-12 12:57:20,351 - INFO -  * Restarting with stat
+2024-10-12 12:57:21,510 - WARNING -  * Debugger is active!
+2024-10-12 12:57:21,515 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 12:57:27,102 - INFO - 127.0.0.1 - - [12/Oct/2024 12:57:27] "GET / HTTP/1.1" 200 -
+2024-10-12 12:57:28,747 - INFO - Solicitud recibida en /predict_web
+2024-10-12 12:57:28,803 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.4346190476190476}]
+2024-10-12 12:57:28,804 - INFO - 127.0.0.1 - - [12/Oct/2024 12:57:28] "POST /predict_web HTTP/1.1" 200 -
+2024-10-12 12:57:31,970 - INFO - Solicitud recibida en /predict_web
+2024-10-12 12:57:32,023 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.4346190476190476}]
+2024-10-12 12:57:32,024 - INFO - 127.0.0.1 - - [12/Oct/2024 12:57:32] "POST /predict_web HTTP/1.1" 200 -
+2024-10-12 12:57:32,510 - INFO - Solicitud recibida en /predict_web
+2024-10-12 12:57:32,552 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.4346190476190476}]
+2024-10-12 12:57:32,554 - INFO - 127.0.0.1 - - [12/Oct/2024 12:57:32] "POST /predict_web HTTP/1.1" 200 -
+2024-10-12 12:57:32,672 - INFO - Solicitud recibida en /predict_web
+2024-10-12 12:57:32,713 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.4346190476190476}]
+2024-10-12 12:57:32,715 - INFO - 127.0.0.1 - - [12/Oct/2024 12:57:32] "POST /predict_web HTTP/1.1" 200 -
+2024-10-12 12:57:32,835 - INFO - Solicitud recibida en /predict_web
+2024-10-12 12:57:32,875 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.4346190476190476}]
+2024-10-12 12:57:32,877 - INFO - 127.0.0.1 - - [12/Oct/2024 12:57:32] "POST /predict_web HTTP/1.1" 200 -
+2024-10-12 12:57:32,987 - INFO - Solicitud recibida en /predict_web
+2024-10-12 12:57:33,027 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.4346190476190476}]
+2024-10-12 12:57:33,029 - INFO - 127.0.0.1 - - [12/Oct/2024 12:57:33] "POST /predict_web HTTP/1.1" 200 -
+2024-10-12 12:57:33,138 - INFO - Solicitud recibida en /predict_web
+2024-10-12 12:57:33,180 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.4346190476190476}]
+2024-10-12 12:57:33,182 - INFO - 127.0.0.1 - - [12/Oct/2024 12:57:33] "POST /predict_web HTTP/1.1" 200 -
+2024-10-12 12:57:33,291 - INFO - Solicitud recibida en /predict_web
+2024-10-12 12:57:33,333 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.4346190476190476}]
+2024-10-12 12:57:33,334 - INFO - 127.0.0.1 - - [12/Oct/2024 12:57:33] "POST /predict_web HTTP/1.1" 200 -
+2024-10-12 12:57:35,364 - INFO - Solicitud recibida en /predict_web
+2024-10-12 12:57:35,418 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.4346190476190476}]
+2024-10-12 12:57:35,420 - INFO - 127.0.0.1 - - [12/Oct/2024 12:57:35] "POST /predict_web HTTP/1.1" 200 -
+2024-10-12 12:57:36,016 - INFO - Solicitud recibida en /predict_web
+2024-10-12 12:57:36,059 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.4346190476190476}]
+2024-10-12 12:57:36,060 - INFO - 127.0.0.1 - - [12/Oct/2024 12:57:36] "POST /predict_web HTTP/1.1" 200 -
+2024-10-12 12:57:36,178 - INFO - Solicitud recibida en /predict_web
+2024-10-12 12:57:36,220 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.4346190476190476}]
+2024-10-12 12:57:36,221 - INFO - 127.0.0.1 - - [12/Oct/2024 12:57:36] "POST /predict_web HTTP/1.1" 200 -
+2024-10-12 12:57:37,374 - INFO - Solicitud recibida en /predict_web
+2024-10-12 12:57:37,415 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.36450000000000005}]
+2024-10-12 12:57:37,418 - INFO - 127.0.0.1 - - [12/Oct/2024 12:57:37] "POST /predict_web HTTP/1.1" 200 -
+2024-10-12 12:58:46,929 - INFO -  * Detected change in 'C:\\Users\\USUARIO\\OneDrive - Universidad de los andes\\Documentos\\JJ\\MATERIAS 9\\BI\\Proyecto 1\\Proyecto1-Analitica-de-textos\\app.py', reloading
+2024-10-12 12:58:47,101 - INFO -  * Restarting with stat
+2024-10-12 12:58:48,339 - WARNING -  * Debugger is active!
+2024-10-12 12:58:48,343 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 12:58:49,334 - INFO -  * Detected change in 'C:\\Users\\USUARIO\\OneDrive - Universidad de los andes\\Documentos\\JJ\\MATERIAS 9\\BI\\Proyecto 1\\Proyecto1-Analitica-de-textos\\app.py', reloading
+2024-10-12 12:58:49,476 - INFO -  * Restarting with stat
+2024-10-12 12:58:50,689 - WARNING -  * Debugger is active!
+2024-10-12 12:58:50,693 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 12:58:51,733 - INFO -  * Detected change in 'C:\\Users\\USUARIO\\OneDrive - Universidad de los andes\\Documentos\\JJ\\MATERIAS 9\\BI\\Proyecto 1\\Proyecto1-Analitica-de-textos\\app.py', reloading
+2024-10-12 12:58:51,870 - INFO -  * Restarting with stat
+2024-10-12 12:58:53,024 - WARNING -  * Debugger is active!
+2024-10-12 12:58:53,028 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 12:59:09,883 - INFO -  * Detected change in 'C:\\Users\\USUARIO\\OneDrive - Universidad de los andes\\Documentos\\JJ\\MATERIAS 9\\BI\\Proyecto 1\\Proyecto1-Analitica-de-textos\\app.py', reloading
+2024-10-12 12:59:10,072 - INFO -  * Restarting with stat
+2024-10-12 12:59:11,392 - WARNING -  * Debugger is active!
+2024-10-12 12:59:11,396 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 12:59:14,070 - INFO -  * Detected change in 'C:\\Users\\USUARIO\\OneDrive - Universidad de los andes\\Documentos\\JJ\\MATERIAS 9\\BI\\Proyecto 1\\Proyecto1-Analitica-de-textos\\app.py', reloading
+2024-10-12 12:59:14,260 - INFO -  * Restarting with stat
+2024-10-12 12:59:15,554 - WARNING -  * Debugger is active!
+2024-10-12 12:59:15,559 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 12:59:23,323 - INFO -  * Detected change in 'C:\\Users\\USUARIO\\OneDrive - Universidad de los andes\\Documentos\\JJ\\MATERIAS 9\\BI\\Proyecto 1\\Proyecto1-Analitica-de-textos\\app.py', reloading
+2024-10-12 12:59:23,527 - INFO -  * Restarting with stat
+2024-10-12 12:59:24,900 - WARNING -  * Debugger is active!
+2024-10-12 12:59:24,906 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 12:59:50,170 - INFO -  * Detected change in 'C:\\Users\\USUARIO\\OneDrive - Universidad de los andes\\Documentos\\JJ\\MATERIAS 9\\BI\\Proyecto 1\\Proyecto1-Analitica-de-textos\\app.py', reloading
+2024-10-12 12:59:50,304 - INFO -  * Restarting with stat
+2024-10-12 12:59:51,709 - WARNING -  * Debugger is active!
+2024-10-12 12:59:51,713 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 12:59:52,976 - INFO -  * Detected change in 'C:\\Users\\USUARIO\\OneDrive - Universidad de los andes\\Documentos\\JJ\\MATERIAS 9\\BI\\Proyecto 1\\Proyecto1-Analitica-de-textos\\app.py', reloading
+2024-10-12 12:59:53,146 - INFO -  * Restarting with stat
+2024-10-12 12:59:54,481 - WARNING -  * Debugger is active!
+2024-10-12 12:59:54,485 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 12:59:55,484 - INFO -  * Detected change in 'C:\\Users\\USUARIO\\OneDrive - Universidad de los andes\\Documentos\\JJ\\MATERIAS 9\\BI\\Proyecto 1\\Proyecto1-Analitica-de-textos\\app.py', reloading
+2024-10-12 12:59:55,663 - INFO -  * Restarting with stat
+2024-10-12 12:59:56,908 - WARNING -  * Debugger is active!
+2024-10-12 12:59:56,911 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 12:59:59,643 - INFO -  * Detected change in 'C:\\Users\\USUARIO\\OneDrive - Universidad de los andes\\Documentos\\JJ\\MATERIAS 9\\BI\\Proyecto 1\\Proyecto1-Analitica-de-textos\\app.py', reloading
+2024-10-12 12:59:59,859 - INFO -  * Restarting with stat
+2024-10-12 13:00:01,290 - WARNING -  * Debugger is active!
+2024-10-12 13:00:01,301 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 13:00:05,754 - INFO -  * Detected change in 'C:\\Users\\USUARIO\\OneDrive - Universidad de los andes\\Documentos\\JJ\\MATERIAS 9\\BI\\Proyecto 1\\Proyecto1-Analitica-de-textos\\app.py', reloading
+2024-10-12 13:00:05,999 - INFO -  * Restarting with stat
+2024-10-12 13:00:07,591 - WARNING -  * Debugger is active!
+2024-10-12 13:00:07,595 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 13:00:08,671 - INFO -  * Detected change in 'C:\\Users\\USUARIO\\OneDrive - Universidad de los andes\\Documentos\\JJ\\MATERIAS 9\\BI\\Proyecto 1\\Proyecto1-Analitica-de-textos\\app.py', reloading
+2024-10-12 13:00:08,875 - INFO -  * Restarting with stat
+2024-10-12 13:00:10,182 - WARNING -  * Debugger is active!
+2024-10-12 13:00:10,187 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 13:00:16,315 - INFO -  * Detected change in 'C:\\Users\\USUARIO\\OneDrive - Universidad de los andes\\Documentos\\JJ\\MATERIAS 9\\BI\\Proyecto 1\\Proyecto1-Analitica-de-textos\\app.py', reloading
+2024-10-12 13:00:16,547 - INFO -  * Restarting with stat
+2024-10-12 13:00:17,905 - WARNING -  * Debugger is active!
+2024-10-12 13:00:17,909 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 13:00:33,333 - INFO -  * Detected change in 'C:\\Users\\USUARIO\\OneDrive - Universidad de los andes\\Documentos\\JJ\\MATERIAS 9\\BI\\Proyecto 1\\Proyecto1-Analitica-de-textos\\app.py', reloading
+2024-10-12 13:00:33,525 - INFO -  * Restarting with stat
+2024-10-12 13:00:34,785 - WARNING -  * Debugger is active!
+2024-10-12 13:00:34,790 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 13:00:42,367 - INFO -  * Detected change in 'C:\\Users\\USUARIO\\OneDrive - Universidad de los andes\\Documentos\\JJ\\MATERIAS 9\\BI\\Proyecto 1\\Proyecto1-Analitica-de-textos\\app.py', reloading
+2024-10-12 13:00:42,543 - INFO -  * Restarting with stat
+2024-10-12 13:00:43,868 - WARNING -  * Debugger is active!
+2024-10-12 13:00:43,872 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 13:00:46,532 - INFO -  * Detected change in 'C:\\Users\\USUARIO\\OneDrive - Universidad de los andes\\Documentos\\JJ\\MATERIAS 9\\BI\\Proyecto 1\\Proyecto1-Analitica-de-textos\\app.py', reloading
+2024-10-12 13:00:46,715 - INFO -  * Restarting with stat
+2024-10-12 13:00:48,006 - WARNING -  * Debugger is active!
+2024-10-12 13:00:48,009 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 13:00:52,476 - INFO -  * Detected change in 'C:\\Users\\USUARIO\\OneDrive - Universidad de los andes\\Documentos\\JJ\\MATERIAS 9\\BI\\Proyecto 1\\Proyecto1-Analitica-de-textos\\app.py', reloading
+2024-10-12 13:00:52,650 - INFO -  * Restarting with stat
+2024-10-12 13:00:53,896 - WARNING -  * Debugger is active!
+2024-10-12 13:00:53,902 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 13:02:32,723 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-10-12 13:02:32,724 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-12 13:02:32,726 - INFO -  * Restarting with stat
+2024-10-12 13:02:33,955 - WARNING -  * Debugger is active!
+2024-10-12 13:02:33,959 - INFO -  * Debugger PIN: 108-591-712
+2024-10-12 13:02:34,885 - INFO - 127.0.0.1 - - [12/Oct/2024 13:02:34] "GET / HTTP/1.1" 200 -
+2024-10-12 13:02:42,170 - INFO - Solicitud recibida en /predict_web
+2024-10-12 13:02:42,214 - INFO - Predicciones realizadas: [{'prediction': '3', 'probability': 0.87}]
+2024-10-12 13:02:42,215 - INFO - 127.0.0.1 - - [12/Oct/2024 13:02:42] "POST /predict_web HTTP/1.1" 200 -
