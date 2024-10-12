@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <style>
         body {
-            background-color: #f8f9fa;
+            background-color: #005e05;
         }
         #results p, #metrics p {
             font-size: 1.1em;
@@ -18,10 +18,24 @@
 </head>
 <body>
     <div class="container mt-5">
-        <h1 class="text-center mb-4">Clasificación de Opiniones según ODS</h1>
-        
-        <!-- Formulario de Predicción -->
-        <h2>Realizar una Predicción</h2>
+        <!-- Pagina de Inicio -->
+    <div id="home" class="card section active-section">
+        <div class="card-body">
+            <h1 class="text-center mb-4">Bienvenidos a la Clasificación de Opiniones según los ODS</h1>
+            <p>Esta aplicación permite analizar las opiniones de los usuarios y clasificarlas de acuerdo a los Objetivos de Desarrollo Sostenible (ODS). Actualmente, la aplicación se centra en los siguientes ODS:</p>
+            <ul>
+                <li><strong>ODS 3:</strong> Salud y bienestar - Garantizar una vida sana y promover el bienestar para todos en todas las edades.</li>
+                <li><strong>ODS 4:</strong> Educación de calidad - Garantizar una educación inclusiva, equitativa y de calidad y promover oportunidades de aprendizaje durante toda la vida.</li>
+                <li><strong>ODS 5:</strong> Igualdad de género - Lograr la igualdad entre los géneros y empoderar a todas las mujeres y las niñas.</li>
+            </ul>
+            <p>Utiliza los botones de navegación superiores para acceder a las funcionalidades de predicción de opiniones y reentrenamiento del modelo.</p>
+        </div>
+    </div>
+
+    <!-- Pagina de Prediccion -->
+    <div id="predict" class="card section">
+        <div class="card-body">
+            <h2 class="text-center mb-4">Realizar una Predicción</h2>
             <form id="prediction-form">
                 <div class="form-group">
                     <label for="text-input">Ingrese el texto:</label>
@@ -29,88 +43,111 @@
                 </div>
                 <button type="submit" class="btn btn-primary">Predecir</button>
             </form>
-        <h3 class="mt-4">Resultado de la Predicción:</h3>
-        <div id="results" class="mt-2"></div>
-        
-        <!-- Formulario de Reentrenamiento con Archivo CSV -->
-        <hr>
-        <h2 class="mt-5">Reentrenar el Modelo con un Archivo CSV</h2>
+            <h3 class="mt-4">Resultado de la Predicción:</h3>
+            <div id="results" class="mt-2"></div>
+        </div>
+    </div>
+
+    <!-- Pagina de Reentrenamiento -->
+    <div id="retrain" class="card section">
+        <div class="card-body">
+            <h2 class="text-center mb-4">Reentrenar el Modelo con un Archivo CSV</h2>
             <form id="retrain-form" enctype="multipart/form-data">
                 <div class="form-group">
-                    <label for="csv-input">Seleccione el archivo CSV:</label>
+                    <label for="csv-input">Seleccione el archivo CSV: (Con las columnas "Textos_espanol" y "sdg")</label>
                     <input type="file" class="form-control-file" id="csv-input" name="csv_file" accept=".csv">
                 </div>
                 <button type="submit" class="btn btn-success">Reentrenar Modelo</button>
             </form>
-        <h3 class="mt-4">Métricas de Rendimiento:</h3>
-        <div id="metrics" class="mt-2"></div>
+            <h3 class="mt-4">Métricas de Rendimiento:</h3>
+            <div id="metrics" class="mt-2"></div>
+        </div>
     </div>
-    
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</div>
 
-    <script>
-        // Manejo de la predicción
-        document.getElementById('prediction-form').addEventListener('submit', function(e) {
-            e.preventDefault();
-            let text = document.getElementById('text-input').value;
-            fetch('/predict_web', {
-                method: 'POST',
-                headers: {'Content-Type': 'application/json'},
-                body: JSON.stringify({"instances": [text]})
-            })
-            .then(response => response.json())
-            .then(data => {
-                let resultDiv = document.getElementById('results');
-                resultDiv.innerHTML = '';
-                data.forEach(function(item) {
-                    resultDiv.innerHTML += `<p><strong>Predicción: </strong>ODS ${item.prediction}, <strong>Probabilidad:</strong> ${(item.probability * 100).toFixed(2)}%</p>`;
-                });
-            })
-            .catch(error => {
-                console.error('Error:', error);
-                alert('Ocurrió un error al procesar la solicitud de predicción.');
-            });
+<!-- Agregar jQuery y Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<!-- Controla la navegación entre secciones -->
+<script>
+    $(document).ready(function() {
+        // Manejar los botones de navegación
+        $('#btn-home').on('click', function() {
+            $('.section').removeClass('active-section');
+            $('#home').addClass('active-section');
         });
+        $('#btn-predict').on('click', function() {
+            $('.section').removeClass('active-section');
+            $('#predict').addClass('active-section');
+        });
+        $('#btn-retrain').on('click', function() {
+            $('.section').removeClass('active-section');
+            $('#retrain').addClass('active-section');
+        });
+    });
 
-        // Manejo del reentrenamiento con archivo CSV
-        document.getElementById('retrain-form').addEventListener('submit', function(e) {
-            e.preventDefault();
-            let formData = new FormData();
-            let csvFile = document.getElementById('csv-input').files[0];
-            if (!csvFile) {
-                alert('Por favor, seleccione un archivo CSV.');
-                return;
-            }
-            formData.append('csv_file', csvFile);
-            
-            fetch('/retrain', {
-                method: 'POST',
-                body: formData
-            })
-            .then(response => response.json())
-            .then(data => {
-                let metricsDiv = document.getElementById('metrics');
-                metricsDiv.innerHTML = '';
-                // Verificar si hubo un error
-                if (data.error) {
-                    metricsDiv.innerHTML = `<p><strong>Error:</strong> ${data.error}</p>`;
-                } else {
-                    metricsDiv.innerHTML += `<p><strong>Métricas de Rendimiento:</strong></p>`;
-                    for (let label in data) {
-                        if (label !== 'accuracy' && label !== 'macro avg' && label !== 'weighted avg') {
-                            metricsDiv.innerHTML += `<p><strong>${label}</strong> - Precisión: ${(data[label]['precision'] * 100).toFixed(2)}%, Recall: ${(data[label]['recall'] * 100).toFixed(2)}%, F1-Score: ${(data[label]['f1-score'] * 100).toFixed(2)}%</p>`;
-                        }
+    // Manejo de la predicción
+    document.getElementById('prediction-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        let text = document.getElementById('text-input').value;
+        fetch('/predict_web', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({"instances": [text]})
+        })
+        .then(response => response.json())
+        .then(data => {
+            let resultDiv = document.getElementById('results');
+            resultDiv.innerHTML = '';
+            data.forEach(function(item) {
+                resultDiv.innerHTML += `<p><strong>Predicción: </strong>ODS ${item.prediction}, <strong>Probabilidad:</strong> ${(item.probability * 100).toFixed(2)}%</p>`;
+            });
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('Ocurrió un error al procesar la solicitud de predicción.');
+        });
+    });
+
+    // Manejo del reentrenamiento con archivo CSV
+    document.getElementById('retrain-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        let formData = new FormData();
+        let csvFile = document.getElementById('csv-input').files[0];
+        if (!csvFile) {
+            alert('Por favor, seleccione un archivo CSV. (Con las columnas "Textos_espanol" y "sdg")');
+            return;
+        }
+        formData.append('csv_file', csvFile);
+        
+        fetch('/retrain', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            let metricsDiv = document.getElementById('metrics');
+            metricsDiv.innerHTML = '';
+            // Verificar si hubo un error
+            if (data.error) {
+                metricsDiv.innerHTML = `<p><strong>Error:</strong> ${data.error}</p>`;
+            } else {
+                metricsDiv.innerHTML += `<p><strong>Métricas de Rendimiento:</strong></p>`;
+                for (let label in data) {
+                    if (label !== 'accuracy' && label !== 'macro avg' && label !== 'weighted avg') {
+                        metricsDiv.innerHTML += `<p><strong>${label}</strong> - Precisión: ${(data[label]['precision'] * 100).toFixed(2)}%, Recall: ${(data[label]['recall'] * 100).toFixed(2)}%, F1-Score: ${(data[label]['f1-score'] * 100).toFixed(2)}%</p>`;
                     }
-                    metricsDiv.innerHTML += `<p><strong>Exactitud (Accuracy):</strong> ${(data['accuracy'] * 100).toFixed(2)}%</p>`;
                 }
-            })
-            .catch(error => {
-                console.error('Error:', error);
-                alert('Ocurrió un error al procesar la solicitud de reentrenamiento.');
-            });
+                metricsDiv.innerHTML += `<p><strong>Exactitud (Accuracy):</strong> ${(data['accuracy'] * 100).toFixed(2)}%</p>`;
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('Ocurrió un error al procesar la solicitud de reentrenamiento.');
         });
-    </script>
+    });
+</script>
 </body>
 </html>
